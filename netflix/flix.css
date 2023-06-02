@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+.cero{
+    margin: 200px;
+    align-content: center;
+}
+.one{
+    background-color: #b1060f;
+    width: 60px;
+    height: 300px;
+    margin-right: 22px;
+    display: inline-block;
+}
+.two{
+    background-color: #e50913;
+    width: 60px;
+    height: 300px;
+    margin-right: 22px;
+    display: inline-block;
+    transform: rotate(-30deg);
+    transform: skew(30deg);
+    /*el (transform: rotate) es para poner en diagonal
+        el (transform: skew) es para estirarlo*/
+}
+.three{
+    background-color: #b1060f;
+    width: 60px;
+    height: 300px;
+    display: inline-block;
+}
